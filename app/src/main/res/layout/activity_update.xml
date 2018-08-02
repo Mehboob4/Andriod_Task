@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ins"
+    tools:context=".UpdateActivity">
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:hint="Enter ID"
+        android:id="@+id/ID"
+        android:inputType="number"
+        android:textColorHint="#FFF" />
+
+    <EditText
+        android:inputType="text"
+        android:layout_width="250dp"
+        android:id="@+id/newValue"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:hint="Enter New Value"
+        android:textColorHint="#FFF" />
+
+    <Spinner
+        android:id="@+id/FieldSP"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:spinnerMode="dialog" />
+<Button
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:text="Update"
+    android:textSize="25dp"
+    android:id="@+id/update"
+    android:layout_centerHorizontal="true"
+    android:textAllCaps="false"
+    android:background="@drawable/button"
+    android:layout_marginTop="380dp"/>
+</RelativeLayout>
